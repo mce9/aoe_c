@@ -8,7 +8,7 @@ void fatal(char *message) {
 	exit(-1);
 }
 
-// an error-checked malloc() wrapper function
+// An error-checked malloc() wrapper function
 void *ec_malloc(unsigned int size) {
 	void *ptr;
 	ptr = malloc(size);
